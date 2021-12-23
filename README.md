@@ -8,7 +8,7 @@ Take a look at the [Kedro documentation](https://kedro.readthedocs.io) to get st
 
 ## Kaggle Challenge
 
-[https://www.kaggle.com/c/feedback-prize-2021/overview][Feedback Prize - Evaluating Student Writing]
+[Feedback Prize - Evaluating Student Writing](https://www.kaggle.com/c/feedback-prize-2021/overview)
 
 ## Rules and guidelines
 
