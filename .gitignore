@@ -17,6 +17,7 @@ logs/**
 !data/**/
 !logs/**/
 
+data/01_raw
 # also keep all .gitkeep files
 !.gitkeep
 
