@@ -160,3 +160,6 @@ venv.bak/
 # Azure ML
 .amlignore*
 *ipynb_aml_checkpoints*
+
+# Project specific
+notebooks/template.ipynb
