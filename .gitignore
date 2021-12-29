@@ -21,9 +21,6 @@ data/01_raw
 # also keep all .gitkeep files
 !.gitkeep
 
-# also keep the example dataset
-!data/01_raw/iris.csv
-
 
 ##########################
 # Common files
@@ -158,3 +155,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# Azure ML
+.amlignore*
+*ipynb_aml_checkpoints*
