@@ -17,11 +17,9 @@ logs/**
 !data/**/
 !logs/**/
 
+data/01_raw
 # also keep all .gitkeep files
 !.gitkeep
-
-# also keep the example dataset
-!data/01_raw/iris.csv
 
 
 ##########################
@@ -157,3 +155,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# Azure ML
+.amlignore*
+*ipynb_aml_checkpoints*
+
+# Project specific
+notebooks/template.ipynb

@@ -2,3 +2,31 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html
+
+
+train:
+  type: pandas.CSVDataSet
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/01_raw/train.csv
+  load_args:
+    sep: ','
+    decimal: .
+  save_args:
+    sep: ','
+    index: False
+    date_format: '%Y-%m-%d %H:%M'
+    decimal: .
+sample_submission:
+  type: pandas.CSVDataSet
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/01_raw/sample_submission.csv
+  load_args:
+    sep: ','
+    decimal: .
+  save_args:
+    sep: ','
+    index: False
+    date_format: '%Y-%m-%d %H:%M'
+    decimal: .
+train_folder:
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/01_raw/train
+test_folder: 
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/01_raw/test
