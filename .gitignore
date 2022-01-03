@@ -18,6 +18,7 @@ logs/**
 !logs/**/
 
 data/01_raw
+data/05_model_input
 # also keep all .gitkeep files
 !.gitkeep
 
