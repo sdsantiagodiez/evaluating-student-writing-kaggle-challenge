@@ -45,5 +45,16 @@ class Config:
         config = Config.get_config(config_key,catalog_file_path)
         return Config._get_dictionary_key_value(config,file_path_key)
 
+    @staticmethod
+    def get_all_file_paths(catalog_file_path=_catalog_file_path):
+        file_paths = {}
+        
+        catalog_config = Config._get_catalog_config(catalog_file_path)
+        for key, _ in catalog_config.items():
+            file_paths[key] =  Config.get_file_path(key, catalog_file_path)
+
+        return file_paths
+        
+
     
         
