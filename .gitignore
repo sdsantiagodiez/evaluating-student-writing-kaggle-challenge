@@ -12,12 +12,15 @@ conf/**/*credentials*
 # ignore everything in the following folders
 data/**
 logs/**
+wandb/**
 
 # except their sub-folders
 !data/**/
 !logs/**/
 
 data/01_raw
+data/05_model_input
+data/06_models
 # also keep all .gitkeep files
 !.gitkeep
 

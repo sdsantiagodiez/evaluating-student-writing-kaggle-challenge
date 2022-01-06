@@ -4,6 +4,23 @@
 # Link: https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html
 
 
+raw: 
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/01_raw
+intermediate: 
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/02_intermediate
+primary: 
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/03_primary
+feature: 
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/04_feature
+model_input: 
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/05_model_input
+models: 
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/06_models
+model_output: 
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/07_model_output
+reporting: 
+  filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/08_reporting
+
 train:
   type: pandas.CSVDataSet
   filepath: /home/azureuser/cloudfiles/code/Users/santiago.a.diez/evaluating-student-writing-kaggle-challenge/data/01_raw/train.csv
